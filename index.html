@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    .darkblue{
+      background-color:darkblue;
+      border:3px solid whitesmoke;
+      margin-bottom:20px;
+      font-size:1rem;
+      text-transform:uppercase;
+      color:white
+      
+    }
+    .green{
+      border:3px solid black;
+      background-color:green;
+      width:100px;
+      height:80px;
+      position:relative;
+      left:50px;
+      border-radius:10px;
+    }
+    .blue{
+      border:3px solid black;
+      background-color: blue;
+      width:100px;
+      height:80px;
+      position:relative;
+      left:180px;
+      bottom: 85px;
+      border-radius:10px;
+    }
+    .yellow{
+      border:3px solid black;
+      background-color:yellow;
+      width:100px;
+      height:80px;
+      position:relative;
+      left:300px;
+      bottom:170px;
+      border-radius:10px;
+
+    }
+    .brown{
+      border:3px solid black;
+      background-color:brown;
+      width:100px;
+      height:80px;
+      position:relative;
+      left:420px;
+      bottom:255px;
+      text-align:center;
+      border-radius:10px;
+    }
+    .white{
+      border:2px solid BLUE;
+      width:200px;
+      height:300px;
+      position:relative;
+      left:200px;
+      bottom:200px;
+    }
+    .innerbox{
+      border:2px solid black;
+      width:130px;
+      height:70px;
+      position:relative;
+      left:35px;
+      top:30px;
+      TEXT-TRANSFORM:UPPERCASE;
+      text-align:center;
+      font-size: 1.3rem;
+      z-index:
+    }
+    .one{
+      border:2px solid red;
+      width:100px;
+      height:15px;
+      position:absolute;
+      top:150px;
+      font-size:1rem;
+      
+
+    }
+    .two{
+      border:2px solid red;
+      width:100px;
+      height:15px;
+      position:absolute;
+      top:170px;
+      font-size:1rem
+    }
+    .three{
+      border:2px solid red;
+      width:120px;
+      height:15px;
+      position:absolute;
+      top:190px;
+      font-size:1rem;
+
+    }
+    .four{
+      border:2px solid red;
+      width:130px;
+      height:15px;
+      position:absolute;
+      top:210px;
+      font-size:1rem;
+
+    }
+    .five{
+      background-color:green;
+      width:40px;
+      height:40px;
+      position:absolute;
+      z-index:1;
+    }
+    .six{
+      background-color:brown;
+      width:60px;
+      height:60px;
+      position:absolute;
+      top:20px;
+      z-index:0;
+    }
+    h3{
+      color:whitesmoke;
+      text-align:center;
+    }
+
+
+    
+
+  </style>
+</head>
+
+<body>
+  <div class="darkblue"><h1>css positioning demo</h1></div>
+  <div class="green" >
+    <h3>static positioning</h3>
+  </div>
+  <div class="blue" draggable="true"><h3>relative positioning</H3></div>
+  <div class="yellow" draggable="true"><H3>absolute positioning</H3></div>
+  <div class="brown" draggable="true"><H3>fixed positioning</h3></div>
+  <div class="white"draggable="true">
+    <div class="innerbox">absolute positioning
+      <div class="one">position</div>
+      <div class="two">absolute</div>
+      <div class="three">top: 50px</div>
+      <div class="four">left: 50px
+        <div class="five"></div>
+        <div class="six"></div>
+      </div>
+    </div>
+    
+  </div>
+</body>
+
+</html>
